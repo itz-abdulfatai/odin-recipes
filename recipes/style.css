@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;700;800&display=swap');
+
+* {
+    font-family: 'Dosis', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+
+
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px #f8fdfc, 2px 2px #edce9d, 3px 3px #f26400, 4px 4px #d16b20,
+    5px 5px #811900, 6px 6px #570400, 7px 7px #5e1303, 
+    7px 7px 10px #591900;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #963514;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    margin:  auto;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+li::before {
+    content: "\1F355"; /* Unicode character for a solid square */
+    margin-right: 10px; /* Adjust the spacing between the bullet and the content */
+    color: #ff0000; /* Set the color of the custom bullet */
+  }
